@@ -3,11 +3,11 @@ class School
   def initialize(school_name)
     @school_name = school_name
     @roster = {}
-  end 
+  end
 
   def roster
     @roster
-  end 
+  end
 
   def add_stident(name, grade)
     @student_name = name
