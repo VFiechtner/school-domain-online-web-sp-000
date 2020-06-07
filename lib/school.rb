@@ -9,7 +9,7 @@ class School
     @roster
   end
 
-  def add_stident(name, grade)
+  def add_stiudent(name, grade)
     @student_name = name
     @grade = grade
     if @roster.include?(grade)==false
